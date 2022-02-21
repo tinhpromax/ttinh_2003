@@ -1,0 +1,38 @@
+.rudeus{
+    width: 25%;
+    float: left;
+}
+.roxy{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.roxy.ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+.roxy.img{
+    max-width: 95%;
+}
+.roxy.gia{
+    background-color: aliceblue;
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.roxy.gia del{
+    color: gray;
+}
+.hot{
+    font-size: larger;
+    color: blueviolet;
+}
+.rudeus:hover{
+    color: blue;
+    font-variant: small-caps;
+    border-radius: 10px;
+    background-color: aqua;
+}

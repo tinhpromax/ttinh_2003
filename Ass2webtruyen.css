@@ -1,0 +1,131 @@
+body{
+    padding: 0; 
+    margin: 0;
+}
+.container{
+    width:80%;
+    margin: auto;
+    height: auto;
+}
+header{
+    background-color: #006699;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid red;
+    
+}
+nav{
+    line-height: 30px;
+    background-color: aquamarine;
+    color: blue;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 0px;
+
+}
+article{
+    min-height: auto;
+    width: 75%;
+    height: auto;
+    float: left;
+}
+aside{
+    min-height: auto;
+    width: 25%;
+    background: white;
+    float: right;  
+}
+footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    float: left;
+    width: 100% ;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.ifram{
+    width: 100%;
+    min-height:700px;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px black;
+    line-height: 50px;
+}
+
+.vmenu a{
+    display: block;
+    border-bottom: 1px solid darkmagenta;
+    color: black;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+
+.vmenu a:hover{
+    background: no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: #ccccff ;
+    color: white;
+    font-weight: bold;
+}
+header div a img{
+    width: 100px;
+    float: left;
+}
+header div input{
+    width: 340px;
+    height: 25px;
+    line-height: 60px;
+}
+header div button{
+    padding: auto;
+    line-height: 24px;
+}
+.form login{
+    float: right;
+    
+}
+.form login ul{
+    float: right;
+}
+.login ul li{
+    float: right;
+    list-style: none;
+  
+}
+.login ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px;
+    line-height: 5px;
+    font-variant: small-caps;
+    color: white;
+}
+.search{
+    float: left;
+}
+header p ul li{
+    line-height: 60px;
+    float:none;
+    color: white;
+    
+}
+form ul li a:hover{
+    color: blue;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>35-PS22991-Tình</title>
+    <style>
+           .form-group{
+               font-variant: small-caps;
+               font-weight: bold;
+               margin: auto;
+               width: 275px;
+           }
+           .buton{
+              width: 250px;
+              background-color: green;
+              color: blanchedalmond;
+           }
+           .thanhngang{
+            width: 250px;
+           }
+           .h2{
+               text-align: center;
+               font-variant: small-caps;
+           }
+
+    </style>
+</head>
+<body>
+    <div class="h2"><h2>Đăng Kí</h2></div>
+    <form method="post" enctype="multipart/form-data" >
+          <div class="form-group">
+              
+              <div>Họ và Tên:</div>
+              <input class="thanhngang" type="text" name="username" ><br>
+              <br>
+              <div>Mật Khẩu:</div>
+              <input class="thanhngang" type="password" name="password" ><br>
+              <br>
+              <div>Email:</div>
+              <input class="thanhngang" type="text" name="text"><br>
+              <br>
+              <div>
+                  Giới tính:
+              <label><input type="radio" name="gender" checked>Nam</label>
+              <label><input type="radio" name="gender">Nữ</label>
+              </div>
+              <br>
+              <div>Quốc tịch:</div>
+              <select  class="thanhngang" >
+                  <option>Việt Nam</option>
+                  <option>United States</option>
+                  <option>Japan</option>
+              </select><br>
+              <br>
+              <div >
+                  Thể loại yêu thích: <br>
+                  <label><input type="checkbox" name="hobby" value="1">Mahua</label>
+                  <label><input type="checkbox" name="hobby" value="2" checked>Manga</label>
+                  <label><input type="checkbox" name="hobby" value="3">Mawha</label>
+              </div><br>
+              <button class="buton" type="submit">ĐĂNG KÍ</button>
+              <div>
+                <p>Bạn Đã Có Tài Khoản? <a href="dangnhap.html" target="page">Đăng Nhập</a></p>
+            </div>
+          </div>
+    </form>
+</body>
+</html>
